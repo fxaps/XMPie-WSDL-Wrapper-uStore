@@ -1,0 +1,32 @@
+{
+  "name": "fxaps/xmpie-wsdl-wrapper-ustore",
+  "description": "SOAPClient Class Extensions for XMPie uStore WSDL API",
+  "keywords": [
+    "XMPie",
+    "SOAP",
+    "wrapper",
+    "composer",
+    "package"
+  ],
+  "authors": [
+    {
+      "name": "Andrew Rajcany",
+      "email": "Andrew.Rajcany@aus.fujixerox.com"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "ext-soap": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "XMPieWsdlClient\\": "src"
+    }
+  }
+}
