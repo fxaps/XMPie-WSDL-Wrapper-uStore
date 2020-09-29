@@ -1,0 +1,139 @@
+<?php
+
+namespace XMPieWsdlClient\XMPie\uStore\v_13_0\WSAPI\ProductInventoryWS;
+
+class UpdateByExternalID
+{
+
+    /**
+     * @var string $username
+     */
+    protected $username = null;
+
+    /**
+     * @var string $password
+     */
+    protected $password = null;
+
+    /**
+     * @var int $storeID
+     */
+    protected $storeID = null;
+
+    /**
+     * @var string $externalProductId
+     */
+    protected $externalProductId = null;
+
+    /**
+     * @var int $inventoryAmount
+     */
+    protected $inventoryAmount = null;
+
+    /**
+     * @param string $username
+     * @param string $password
+     * @param int $storeID
+     * @param string $externalProductId
+     * @param int $inventoryAmount
+     */
+    public function __construct($username = null, $password = null, $storeID = null, $externalProductId = null, $inventoryAmount = null)
+    {
+        $this->username = $username;
+        $this->password = $password;
+        $this->storeID = $storeID;
+        $this->externalProductId = $externalProductId;
+        $this->inventoryAmount = $inventoryAmount;
+    }
+
+    /**
+     * @return string
+     */
+    public function getUsername()
+    {
+        return $this->username;
+    }
+
+    /**
+     * @param string $username
+     * @return UpdateByExternalID
+     */
+    public function setUsername($username)
+    {
+        $this->username = $username;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getPassword()
+    {
+        return $this->password;
+    }
+
+    /**
+     * @param string $password
+     * @return UpdateByExternalID
+     */
+    public function setPassword($password)
+    {
+        $this->password = $password;
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getStoreID()
+    {
+        return $this->storeID;
+    }
+
+    /**
+     * @param int $storeID
+     * @return UpdateByExternalID
+     */
+    public function setStoreID($storeID)
+    {
+        $this->storeID = $storeID;
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getExternalProductId()
+    {
+        return $this->externalProductId;
+    }
+
+    /**
+     * @param string $externalProductId
+     * @return UpdateByExternalID
+     */
+    public function setExternalProductId($externalProductId)
+    {
+        $this->externalProductId = $externalProductId;
+        return $this;
+    }
+
+    /**
+     * @return int
+     */
+    public function getInventoryAmount()
+    {
+        return $this->inventoryAmount;
+    }
+
+    /**
+     * @param int $inventoryAmount
+     * @return UpdateByExternalID
+     */
+    public function setInventoryAmount($inventoryAmount)
+    {
+        $this->inventoryAmount = $inventoryAmount;
+        return $this;
+    }
+
+}
