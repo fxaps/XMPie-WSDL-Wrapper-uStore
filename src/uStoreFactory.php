@@ -52,7 +52,7 @@ class uStoreFactory
     /**
      * @return RequestFabricator
      */
-    public function getUProduceRequestFabricator(): RequestFabricator
+    public function getUStoreRequestFabricator(): RequestFabricator
     {
         return $this->uStoreRequestFabricator;
     }
@@ -60,7 +60,7 @@ class uStoreFactory
     /**
      * @return ServiceFabricator
      */
-    public function getUProduceServiceFabricator(): ServiceFabricator
+    public function getUStoreServiceFabricator(): ServiceFabricator
     {
         return $this->uStoreServiceFabricator;
     }
@@ -95,8 +95,8 @@ class uStoreFactory
 
         //auto-set credentials
         $autoSetCredentials_uStore = [
-            'inUsername' => $xmpOptions['username'],
-            'inPassword' => $xmpOptions['password'],
+            'username' => $xmpOptions['username'],
+            'password' => $xmpOptions['password'],
         ];
         $this->uStoreRequestFabricator = new RequestFabricator($autoSetCredentials_uStore);
         $this->uStoreServiceFabricator = new ServiceFabricator($soapOptions, $xmpOptions['url']);
