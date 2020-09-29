@@ -52,7 +52,7 @@ class uStoreFactory
     /**
      * @return RequestFabricator
      */
-    public function getUProduceRequestFabricator(): RequestFabricator
+    public function getUStoreRequestFabricator(): RequestFabricator
     {
         return $this->uStoreRequestFabricator;
     }
@@ -60,7 +60,7 @@ class uStoreFactory
     /**
      * @return ServiceFabricator
      */
-    public function getUProduceServiceFabricator(): ServiceFabricator
+    public function getUStoreServiceFabricator(): ServiceFabricator
     {
         return $this->uStoreServiceFabricator;
     }
