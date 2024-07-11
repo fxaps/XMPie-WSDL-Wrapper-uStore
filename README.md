@@ -18,4 +18,6 @@ composer require fxaps/xmpie-wsdl-wrapper-ustore:12.1.*
 composer require fxaps/xmpie-wsdl-wrapper-ustore:13.0.*
 composer require fxaps/xmpie-wsdl-wrapper-ustore:13.4.*
 composer require fxaps/xmpie-wsdl-wrapper-ustore:14.0.*
+composer require fxaps/xmpie-wsdl-wrapper-ustore:15.0.*
+composer require fxaps/xmpie-wsdl-wrapper-ustore:17.2.*
 ```
