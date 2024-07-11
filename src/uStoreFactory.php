@@ -4,8 +4,8 @@
 namespace XMPieWsdlClient;
 
 
-use XMPieWsdlClient\XMPie\uStore\v_x_y\Fabricator\RequestFabricator;
-use XMPieWsdlClient\XMPie\uStore\v_x_y\Fabricator\ServiceFabricator;
+use XMPieWsdlClient\XMPie\uStore\v_17_2\Fabricator\RequestFabricator;
+use XMPieWsdlClient\XMPie\uStore\v_17_2\Fabricator\ServiceFabricator;
 
 /**
  * Class uStoreFactory
